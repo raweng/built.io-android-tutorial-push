@@ -1,7 +1,5 @@
 package com.buitio.builtpushnotification;
 
-import com.raweng.built.Built;
-
 import android.app.Application;
 
 /**
@@ -21,18 +19,5 @@ public class NotificationApplication extends Application{
 	@Override
 	public void onCreate() {
 		super.onCreate();
-		
-		/*
-		 * Initialize the application for a project using built.io Application credentials "Application Api Key" 
-		 * and "Application UID".
-		 * 
-		 */
-		try {
-			Built.initializeWithApiKey(NotificationApplication.this, "YOUR_APP_API_KEY", "YOUR_APP_UID");
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		
 	}
-	
 }

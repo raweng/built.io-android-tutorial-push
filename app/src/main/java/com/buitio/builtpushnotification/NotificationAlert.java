@@ -5,8 +5,6 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
-import com.raweng.built.userInterface.R;
-
 /**
  * This is built.io android tutorial.
  * 
